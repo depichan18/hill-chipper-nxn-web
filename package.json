@@ -1,6 +1,6 @@
 {
-  "name": "secure-hill-chipper-nxn",
-  "version": "0.1.0",
+  "name": "hill-chipper-encryption",
+  "version": "1.0.0",
   "private": true,
   "homepage": "https://depichan18.github.io/hill-chipper-nxn-web",
   "dependencies": {
