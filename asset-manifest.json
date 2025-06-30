@@ -1,15 +1,13 @@
 {
   "files": {
     "main.css": "/hill-chipper-nxn-web/static/css/main.39f1322c.css",
-    "main.js": "/hill-chipper-nxn-web/static/js/main.38b09f68.js",
-    "static/js/453.fc76da52.chunk.js": "/hill-chipper-nxn-web/static/js/453.fc76da52.chunk.js",
+    "main.js": "/hill-chipper-nxn-web/static/js/main.6866470b.js",
     "index.html": "/hill-chipper-nxn-web/index.html",
     "main.39f1322c.css.map": "/hill-chipper-nxn-web/static/css/main.39f1322c.css.map",
-    "main.38b09f68.js.map": "/hill-chipper-nxn-web/static/js/main.38b09f68.js.map",
-    "453.fc76da52.chunk.js.map": "/hill-chipper-nxn-web/static/js/453.fc76da52.chunk.js.map"
+    "main.6866470b.js.map": "/hill-chipper-nxn-web/static/js/main.6866470b.js.map"
   },
   "entrypoints": [
     "static/css/main.39f1322c.css",
-    "static/js/main.38b09f68.js"
+    "static/js/main.6866470b.js"
   ]
 }
