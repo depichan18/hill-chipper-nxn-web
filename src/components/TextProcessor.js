@@ -17,13 +17,13 @@ const TextProcessor = ({ keyMatrix, matrixSize }) => {
       let endpoint, requestBody;
 
       if (operation === 'encrypt') {
-        endpoint = 'http://localhost:5000/api/encrypt';
+        endpoint = `${process.env.REACT_APP_BACKEND_URL || 'http://localhost:5000'}/api/encrypt`;
         requestBody = {
           text: inputText,
           key_matrix: keyMatrix
         };
       } else {
-        endpoint = 'http://localhost:5000/api/decrypt';
+        endpoint = `${process.env.REACT_APP_BACKEND_URL || 'http://localhost:5000'}/api/decrypt`;
         requestBody = {
           cipher_text: inputText,
           key_matrix: keyMatrix

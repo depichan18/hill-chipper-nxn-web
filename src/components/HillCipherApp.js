@@ -35,7 +35,7 @@ const HillCipherApp = () => {
     setLoading(true);
     setError('');
     try {
-      const response = await fetch('http://localhost:5000/api/generate-key', {
+      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL || 'http://localhost:5000'}/api/generate-key`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
